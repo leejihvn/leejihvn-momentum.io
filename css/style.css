@@ -1,0 +1,42 @@
+.hidden {
+    display: none;
+}
+
+@font-face {
+    font-family: 'MesloLGMDZ';
+    src: url('../font/MesloLGMDZ.woff2') format('woff2'),
+        url('../font/MesloLGMDZ.ttf') format('truetype'),
+        url('../font/MesloLGMDZ.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: orange;
+}
+
+#clock {
+    margin-top: 200px;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
+#weather {
+    text-align: right;
+    color: black;
+}
+
+#greeting {
+    font-size: 40px;
+    text-align: center;
+}
+
+#todo-list {
+    font-size: 30px;
+    list-style: none;
+}
